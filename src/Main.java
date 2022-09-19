@@ -5,7 +5,7 @@ public class Main {
         int addition = 4560;
         int bonus;
 
-        if (addition >= 1000) {
+        if (addition > 1000) {
             bonus = addition / 100;
         } else {
             bonus = 0;
@@ -15,7 +15,6 @@ public class Main {
 
         System.out.println(bonus + " руб.");
         System.out.println(newAccountSum + " руб.");
-
 
 
         // Объявляете переменные для входных данных и
